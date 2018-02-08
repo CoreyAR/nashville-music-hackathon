@@ -1,0 +1,36 @@
+.event {
+    .main-details {
+        h2,h3 {
+            text-align: center;
+        }
+    }
+}
+
+.time-slot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+
+.left, .right {
+    align-self: center;
+    padding: 0 25px;
+    flex: 1;
+    min-height: 50px;
+}
+
+.left {
+    // margin-right: 32px;
+    text-align: right;
+    border-right: 3px solid #114F68;
+}
+
+.event {
+    hr.vertical {
+        position: relative;
+        right: 7px;
+    }
+}

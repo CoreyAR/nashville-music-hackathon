@@ -1,0 +1,54 @@
+
+
+
+hr.divider {
+	border-top: 3px solid #114F68;
+	text-align: center;
+  overflow: visible;
+}
+hr.divider:after {
+	content: '⬡';
+	display: inline-block;
+	position: relative;
+	top: -22px;
+	padding: 0 0px;
+	background: Gainsboro;
+	color: #114F68;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+hr.vertical {
+  border-top: 0px solid #114F68;
+  border-left: 3px solid #114F68;
+  height: 50px;
+  margin: 0;
+}
+
+
+// Venue page title padding
+.venue-top {
+  padding-top: 50px;
+}
+
+.venue-map {
+  iframe {
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+.icon-about img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width : 760px){
+  .venue-map {
+    iframe {
+      height: 45vh;
+    }
+  }
+}
