@@ -10,8 +10,14 @@ test:
   post:
     - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external
 
+general:
+  branches:
+    only:
+      - master
+      - staging
+
 deployment:
-  production:
+  master:
     branch: master
     commands:
       - rsync -va --delete ./_site circleci@104.236.78.124:/var/www/nashvillemusichackathon
