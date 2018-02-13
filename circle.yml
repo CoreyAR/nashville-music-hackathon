@@ -1,0 +1,28 @@
+version: 1
+machine:
+  environment:
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+
+dependencies:
+  post:
+    - bundle exec jekyll build
+
+# test:
+  # post:
+    # - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external
+
+general:
+  branches:
+    only:
+      - master
+      - staging
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - rsync -va --delete ./_site circleci@104.236.78.124:/var/www/nashvillemusichackathon
+  staging:
+    branch: staging
+    commands:
+      - rsync -va --delete ./_site circleci@104.236.78.124:/var/www/nashvillemusichackathon
