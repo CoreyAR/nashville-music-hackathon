@@ -3,14 +3,14 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="/">
-                <img src="{{ "/static/img/logos/nash_music_hackathon_logo_no_date.png" | prepend: site.baseurl }}" style="margin-top:-15px" width="140px" alt="icon-about">
+                Nashville Music Hackathon
             </a>
         </div>
 
@@ -30,7 +30,7 @@
                     <a class="page-scroll" href="{{ "#contact" | prepend: site.baseurl }}" >Contact</a>
                 </li>
                 <li class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
                         Past Events
                     </a>
@@ -45,7 +45,6 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
