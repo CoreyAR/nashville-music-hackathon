@@ -10,35 +10,35 @@
         <div class="row timeline">
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="/static/example_style/img/icon-about.jpeg" alt="">
+                    <img class="img-circle img-responsive" src="static/img/icon-agenda.jpeg" alt="">
                 </div>
                 <div class="panel-info">
-                    <a data-toggle="tab" href="#schedule">Schedule</a>
+                    <a class="btn btn-primary" data-toggle="tab" href="#event_details" aria-pressed="true">Event Details</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="/static/example_style/img/icon-agenda.jpeg" alt="">
+                    <img class="img-circle img-responsive" src="static/img/icon-about.jpeg" alt="">
                 </div>
                 <div class="panel-info">
-                    <a data-toggle="tab" href="#event_details">Event Details</a>
+                    <a class="btn btn-primary" data-toggle="tab" href="#schedule" aria-pressed="true">Schedule</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="/static/example_style/img/icon-faq.jpeg" alt="">
+                    <img class="img-circle img-responsive" src="static/img/icon-faq.jpeg" alt="">
                 </div>
                 <div class="panel-info">
-                    <a data-toggle="tab" href="#faqs">FAQS</a>
+                    <a class="btn btn-primary" data-toggle="tab" href="#faqs" aria-pressed="true">FAQS</a>
                 </div>
             </div>
         </div>
         <div class="tab-content">
+            <div id="event_details" class="tab-pane active">
+                {% include current_data/about_sections/event_details.html %}
+            </div>
             <div id="schedule" class="tab-pane">
                 {% include current_data/about_sections/schedule.html %}
-            </div>
-            <div id="event_details" class="tab-pane">
-                {% include current_data/about_sections/event_details.html %}
             </div>
             <div id="faqs" class="tab-pane">
                 {% include current_data/about_sections/faqs.html %}
