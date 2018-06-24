@@ -710,16 +710,29 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/static/example_style/img/map-image.png');
+    background-color: black;
+    background-image: url('{{ site.baseurl }}/static/img/CP004_SOUND_EXPANDED_CC-18-DARK.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 section#contact .section-heading {
     color: #fff;
 }
 
+section#contact .section-content {
+    color: #fff;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 150%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: none;
+    line-height: 200%;
+}
+
+
+/* 
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -772,7 +785,7 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
+} */
 
 footer {
     padding: 25px 0;
