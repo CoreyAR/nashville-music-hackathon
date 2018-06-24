@@ -95,12 +95,12 @@ h4 {
     margin: 0 auto;
 }
 
-aside.clients {
+aside.sponsors {
     padding-top: 150px;
     padding-bottom: 100px;
 }
 
-aside.clients,
+aside.sponsors,
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -349,7 +349,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 25vh;
+    padding-top: 200px;
     padding-bottom: 50px;
 }
 
@@ -370,9 +370,16 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
+header .presenting {
+    text-transform: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 @media(min-width:768px) {    
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200x;
         padding-bottom: 200px;
     }
 
@@ -398,7 +405,7 @@ section {
     padding: 100px 0;
 }
 
-aside.clients h2,
+aside.sponsors h2,
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -705,9 +712,16 @@ section h3.section-subheading {
     }
 }
 
-aside.clients img {
-    margin: 50px auto;
+aside.sponsors h3, aside.sponsors h4 {
+    text-align: center;
 }
+
+aside.sponsors img {
+    margin: 50px auto;
+    height: 300px;
+}
+
+
 
 section#contact {
     background-color: black;
