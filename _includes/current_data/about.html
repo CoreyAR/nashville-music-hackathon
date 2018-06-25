@@ -1,5 +1,5 @@
 <!-- About Section -->
-<section id="about">
+<section id="about" class="bg-light-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -10,45 +10,38 @@
         <div class="row timeline">
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="{{ "/static/example_style/img/icon-about.jpeg" | prepend: site.baseurl }}" alt="">
+                    <i class="fa fa-info fa-5x"></i>
                 </div>
                 <div class="panel-info">
-                    <!-- <div class="timeline-heading">
-                        <h4>Event Details</h4>
-                    </div>
-                    <div class="timeline-heading">
-                        <p class="text-muted">Hack, compose, create</p>
-                    </div> -->
-                    <a href="{{ "/about" | prepend: site.baseurl }}"  class="page-scroll btn btn-sm">Event Details</a>
+                    <button class="btn btn-primary about-button active" data-toggle="tab" href="#event_details" aria-pressed="true">Event Details</button>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="{{ "/static/example_style/img/icon-agenda.jpeg" | prepend: site.baseurl }}" alt="">
+                    <i class="fa fa-calendar-o fa-5x"></i>
                 </div>
                 <div class="panel-info">
-                    <!-- <div class="timeline-heading">
-                        <h4>Schedule</h4>
-                    </div>
-                    <div class="timeline-heading">
-                        <p class="text-muted">Timeline of the day</p>
-                    </div> -->
-                    <a href="{{ "/schedule" | prepend: site.baseurl }}"  class="page-scroll btn btn-sm">Schedule</a>
+                    <button class="btn btn-primary about-button" data-toggle="tab" href="#schedule">Schedule</button>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="{{ "/static/example_style/img/icon-faq.jpeg" | prepend: site.baseurl }}" alt="">
+                    <i class="fa fa-question fa-5x"></i>
                 </div>
                 <div class="panel-info">
-                    <!-- <div class="timeline-heading">
-                        <h4>FAQs</h4>
-                    </div>
-                    <div class="timeline-heading">
-                        <p class="text-muted">Answers to questions.</p>
-                    </div> -->
-                    <a href="{{ "/faqs" | prepend: site.baseurl }}"  class="page-scroll btn btn-sm">FAQS</a>
+                    <button class="btn btn-primary about-button" data-toggle="tab" href="#faqs" aria-pressed="false">FAQS</button>
                 </div>
+            </div>
+        </div>
+        <div class="tab-content bg-light-gray">
+            <div id="event_details" class="tab-pane active">
+                {% include current_data/about_sections/event_details.html %}
+            </div>
+            <div id="schedule" class="tab-pane">
+                {% include current_data/about_sections/schedule.html %}
+            </div>
+            <div id="faqs" class="tab-pane">
+                {% include current_data/about_sections/faqs.html %}
             </div>
         </div>
     </div>

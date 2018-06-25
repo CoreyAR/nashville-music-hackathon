@@ -4,7 +4,7 @@
   {% include common/head.html %}
 
 
-    <body id="page-top" class="index">
+    <body id="page-top" class="index" data-spy="scroll" data-target="#navbar">
 
     {% include current_data/header.html %}
 
@@ -12,17 +12,18 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">Nashville Music Hackathon<br></div>
-                <div class="intro-lead-in">Date - TBD</div>
-                <div class="intro-lead-in">Location - TBD</div>
-                <a href="#intro" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-heading">Nashville Music Hackathon<br>
+                    <span class="presenting">Presented by First Tennessee Bank</span>
+                </br></div>
+                <div class="intro-lead-in">September 15, 2018</div>
+                <div class="intro-lead-in">Ink Building 3rd Floor, 613 Ewing Ave</div>
             </div>
         </div>
     </header>
 
     {% include current_data/intro.html %}
-    {% include current_data/speakers.html %}
     {% include current_data/about.html %}
+    {% include current_data/speakers.html %}
     {% include current_data/sponsors.html %}
     {% include common/contact.html %}
     {% include common/footer.html %}
