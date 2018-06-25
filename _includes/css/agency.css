@@ -63,6 +63,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    text-decoration: none;
 }
 
 a {

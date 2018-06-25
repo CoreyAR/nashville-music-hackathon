@@ -10,30 +10,30 @@
         <div class="row timeline">
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="static/img/icon-agenda.jpeg" alt="">
+                    <i class="fa fa-info fa-5x"></i>
                 </div>
                 <div class="panel-info">
-                    <a class="btn btn-primary" data-toggle="tab" href="#event_details" aria-pressed="true">Event Details</a>
+                    <button class="btn btn-primary about-button active" data-toggle="tab" href="#event_details" aria-pressed="true">Event Details</button>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="static/img/icon-about.jpeg" alt="">
+                    <i class="fa fa-calendar-o fa-5x"></i>
                 </div>
                 <div class="panel-info">
-                    <a class="btn btn-primary" data-toggle="tab" href="#schedule" aria-pressed="true">Schedule</a>
+                    <button class="btn btn-primary about-button" data-toggle="tab" href="#schedule">Schedule</button>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel-image">
-                    <img class="img-circle img-responsive" src="static/img/icon-faq.jpeg" alt="">
+                    <i class="fa fa-question fa-5x"></i>
                 </div>
                 <div class="panel-info">
-                    <a class="btn btn-primary" data-toggle="tab" href="#faqs" aria-pressed="true">FAQS</a>
+                    <button class="btn btn-primary about-button" data-toggle="tab" href="#faqs" aria-pressed="false">FAQS</button>
                 </div>
             </div>
         </div>
-        <div class="tab-content">
+        <div class="tab-content bg-light-gray">
             <div id="event_details" class="tab-pane active">
                 {% include current_data/about_sections/event_details.html %}
             </div>
