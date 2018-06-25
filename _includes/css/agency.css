@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    position: absolute;
+    position: relative;
     margin: 0;
     padding-bottom: 90px;
     min-height: 100%;
@@ -70,7 +70,6 @@ a {
 }
 
 a:hover,
-a:focus,
 a:active,
 a.active {
     color: #{{ site.data.template.color.secondary }};
@@ -95,12 +94,12 @@ h4 {
     margin: 0 auto;
 }
 
-aside.sponsors {
+section.sponsors {
     padding-top: 150px;
     padding-bottom: 100px;
 }
 
-aside.sponsors,
+.sponsors,
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -296,8 +295,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -405,7 +403,6 @@ section {
     padding: 100px 0;
 }
 
-aside.sponsors h2,
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -712,11 +709,11 @@ section h3.section-subheading {
     }
 }
 
-aside.sponsors h3, aside.sponsors h4 {
+.sponsors h3, .sponsors h4 {
     text-align: center;
 }
 
-aside.sponsors img {
+.sponsors img {
     margin: 50px auto;
     height: 300px;
 }
