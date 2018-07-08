@@ -89,6 +89,13 @@
       align-items: center;
       text-align: center;
       justify-content: center;
+      button {
+        @media screen and (max-width: 600px) {
+          padding: 8px 12px;
+          font-size: 12px;
+        }
+      }
+      
   }
   .panel-image {
     z-index: 100;
@@ -104,5 +111,16 @@
     margin-bottom: 25px;
     display: flex;
     align-self: center;
+    @media screen and (max-width: 600px) {
+      width: 75px;
+      height: 75px;
+    }
+    .fa.fa-5x {
+      @media screen and (max-width: 600px) {
+       font-size: 2.8em;
+      }
+    }
   }
+
+  
 }
