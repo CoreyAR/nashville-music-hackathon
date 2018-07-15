@@ -1,21 +1,24 @@
 # Nashville Music Hackathon Static Site
 
 Based on [Event Jekyll Theme](https://event-jekyll-theme.github.io)
+For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/).
 
 ## Installation
-1. Make sure you have Ruby 2.4.1
+1. Make sure you have Ruby 2.5.1
 2. Install Jekyll by using the command `gem install jekyll`.
-3. Then, install Jekyll Sitemap and Jekyll SEO gems by using the commnad `gem install jekyll-sitemap` and `gem install jekyll-seo-tag`.
-4. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
-5. Your site should be accessible at `localhost:4000`.
-6. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/).
+3. Clone the project and change into the created directory.
+4. Install dependencies with `bundle install`
+5. Start your localhost server by using the command `jekyll serve`.
+6. Your site should be accessible at `localhost:4000`.
 
+## Build
+### staging
+Staging uses the default `_config.yml`.
 
-## Deploy
-### Staging
-Staging is deployed to coreyar.github.io/nashville-music-hackathon
-Github pages deployment is managed with the `github-pages` gem.
+`$ bundle exec jekyll build`
 
-```
-bundle update github-pages
-```
+### production
+To deploy to the production use the `--config` flag to specify the config files. `_config.prod.yml` should be last because its settings should override the default config
+
+`$ bundle exec jekyll build --config _config.yml,_config.prod.yml`
+
