@@ -1,12 +1,12 @@
 ---
-title: Name
-name: Name-2
-subtitle: Position
+title: Chris McMurtry
+name: chris-mcmurtry
+subtitle: Head of Music Product | Exactuals
 layout: default
-modal-id: 1
+modal-id: 2
 img: TBD.jpg
 thumbnail: TBD.jpg
-alt: Picture of TBD
-topic: Topic
+alt: Chris McMurtry
+topic: Matching Dynamic Disparate Sets of Data Using Entity Resolution and Machine Learning
 description: More Info
 ---

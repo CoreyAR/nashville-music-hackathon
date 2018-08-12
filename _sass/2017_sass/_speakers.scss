@@ -47,6 +47,17 @@
     }
 }
 
+#speakers {
+    .speaker-thumbnail { 
+        height: 200px;
+    }
+}
+.modal-body {
+    .speaker-modal-image {
+        height: 400px;
+    }
+}
+
 @media screen and (max-width : 1200px){
   .speakers {
       margin: 100px 15vw 60px 15vw;

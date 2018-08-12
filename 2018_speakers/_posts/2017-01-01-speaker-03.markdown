@@ -4,8 +4,8 @@ name: Trevor-Hinesley
 subtitle: Founder/CTO | Soundstripe
 layout: default
 modal-id: 1
-img: TBD.jpg
-thumbnail: TBD.jpg
+img: Trevor03_1.4.2.jpg
+thumbnail: Trevor03_1.4.2.jpg
 alt: Trevor Hinesley
 topic: Waveform Generation
 description: >
