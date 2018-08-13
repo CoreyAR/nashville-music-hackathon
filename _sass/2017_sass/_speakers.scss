@@ -54,7 +54,15 @@
 }
 .modal-body {
     .speaker-modal-image {
-        height: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .modal-body {
+        .speaker-modal-image {
+            margin: 0;
+        }
     }
 }
 
