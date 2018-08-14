@@ -1,13 +1,13 @@
 ---
-title: Tony Lassandro
-name: tony-lassandro
-subtitle: Audio Software Developer | Harrison Consoles
+title: Chris McMurtry
+name: chris-mcmurtry
+subtitle: Head of Music Product | Exactuals
 layout: default
 modal-id: 1
-img: TBD.jpg
-thumbnail: TBD.jpg
-alt: Tony Lassandro
-topic: Getting Started With JUCE Development
+img: chris-mcmurtry.png
+thumbnail: chris-mcmurtry.png
+alt: Chris McMurtry
+topic: Matching Dynamic Disparate Sets of Data Using Entity Resolution and Machine Learning
 description: >
-  JUCE is a cross-platform C++ library specialized for development of audio plugins and applications and has become a staple of software development in the audio industry. In this workshop Tony Lassandro will be walking through the steps of getting your very first JUCE project up and running, from project structure and management up to implementing a graphical user interface and basic audio processing.
+    Historically, information about master recording and music publishing rights have been entered and collected by hand resulting in inaccurate and mismatched information that can delay payment and make using music more difficult. Chris McMurtry will present about how Exactuals has used, Kimichi, the largest similarity metric library in Python, to match recording and publishing information for songs and increase the accuracy of the rights information. So far they’ve matched 32% of the 69 million tracks in their library and expect to have 50% matched by the end of the year! Exactauls will also open up Rai, their api for accessing publishing and master recording information for the hackathon. Any projects that use their api and present at the end of the day will receive 6 months access to Rai.
 ---

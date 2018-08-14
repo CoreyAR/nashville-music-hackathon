@@ -1,12 +1,13 @@
 ---
-title: Chris McMurtry
-name: chris-mcmurtry
-subtitle: Head of Music Product | Exactuals
+title: Trevor Hinesley
+name: Trevor-Hinesley
+subtitle: Founder/CTO | Soundstripe
 layout: default
 modal-id: 2
-img: TBD.jpg
-thumbnail: TBD.jpg
-alt: Chris McMurtry
-topic: Matching Dynamic Disparate Sets of Data Using Entity Resolution and Machine Learning
-description: More Info
+img: Trevor03_1.4.2.jpg
+thumbnail: Trevor03_1.4.2.jpg
+alt: Trevor Hinesley
+topic: Waveform Generation
+description: >
+    Many music applications have waveforms as a nice-to-have design fature, but for Soundstripe's customers who create video content, not having waveforms means having to constantly click through songs to analyze dynamics and crescendo length. With waveforms, a customer is able to see the entire flow of a song at a glance, to quickly vet songs. However, this isn't as easy or as straightforward as it sounds. There are a multitude of ways to generate and display waveforms to a user, and Trevor is joining us to walk you through what has worked for Soundstripe's engineering team, what hasn't, and even sharing some of the tools they've open-sourced so you don't have the reinvent the wheel when it comes to audio waveform generation
 ---

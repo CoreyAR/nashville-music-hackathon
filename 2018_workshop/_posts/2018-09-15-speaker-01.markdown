@@ -1,0 +1,13 @@
+---
+title: Tony Lassandro
+name: tony-lassandro
+subtitle: Audio Software Developer | Harrison Consoles
+layout: default
+modal-id: 1
+img: TBD.jpg
+thumbnail: TBD.jpg
+alt: Tony Lassandro
+topic: Getting Started With JUCE Development
+description: >
+  JUCE is a cross-platform C++ library specialized for development of audio plugins and applications and has become a staple of software development in the audio industry. In this workshop Tony Lassandro will be walking through the steps of getting your very first JUCE project up and running, from project structure and management up to implementing a graphical user interface and basic audio processing.
+---
