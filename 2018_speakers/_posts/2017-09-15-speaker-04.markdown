@@ -3,12 +3,11 @@ title: Christopher Igoe
 name: christopher-igoe
 subtitle: Co-Founder, Director of Engineering and Product | Songspace
 layout: default
-modal-id: 3
+modal-id: 4
 img: team-cigoe-lg.jpg
 thumbnail: team-cigoe-lg.jpg
 alt: Christopher Igoe
-topic: > 
-    Scaling SaaS implementation across 3+ customer/functional domains of music content owners ecosystem in under 4 years
+topic: Scaling SaaS implementation across 3+ customer/functional domains of music content owners ecosystem in under 4 years
 description: >
     Running a large scale SaaS enterprise application that services hundreds of business clients isn’t easy and requires a company wide effort to support and maintain. Walk through Songspace’s technical timeline and decisions (both good and bad) and learn how we have succeeded through the years leveraging open source software and a client-driven roadmap. This will be a high level technical overview of the various systems and how they all work together to make Songspace the enterprise offering it is today.
 ---

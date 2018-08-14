@@ -3,7 +3,7 @@ title: Trevor Hinesley
 name: Trevor-Hinesley
 subtitle: Founder/CTO | Soundstripe
 layout: default
-modal-id: 1
+modal-id: 3
 img: Trevor03_1.4.2.jpg
 thumbnail: Trevor03_1.4.2.jpg
 alt: Trevor Hinesley
