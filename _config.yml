@@ -1,8 +1,8 @@
 title: Nashville Music Hackthon
 description: > # this means to ignore newlines until "baseurl:"
-  Inspired by the NY Monthly Music Hackathon, the Nashville Music 
-                                    Hackathon brings together local musicians, programmers, designers, composers, 
-                                    hardware tinkerers and fans for a day of learning and creating at the intersection of music and technology.
+  The 2nd Annual Nashville Music Hackathon presented by First Tennessee Bank, will take place on Sept 15, 2018, at Ink Building 3rd Floor, 613 Ewing Ave.
+  It will bring together local musicians, programmers, designers, composers, 
+  hardware tinkerers and fans for a day of learning and creating at the intersection of music and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "dev.nashvillemusichackathon.com" # the base hostname & protocol for your site
 # Build settings
