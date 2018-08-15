@@ -29,5 +29,8 @@ $(function () {
 // Show modal on page load
 $(window).on('load', function () {
     var hash = window.location.hash
-    $(hash).modal('show');
+    // Hard coded for expediency to stop #speakers and other anchors from adding overlay
+    if (hash === '#Trevor-Hinesley' || hash === '#christopher-igoe' || hash === '#chris-mcmurtry' ) {
+        $(hash).modal('show');
+    }
 });
