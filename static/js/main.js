@@ -30,7 +30,7 @@ $(function () {
 $(window).on('load', function () {
     var hash = window.location.hash
     // Hard coded for expediency to stop #speakers and other anchors from adding overlay
-    if (hash === '#Trevor-Hinesley' || hash === '#christopher-igoe' || hash === '#chris-mcmurtry' ) {
+    if (hash === '#Trevor-Hinesley' || hash === '#christopher-igoe' || hash === '#chris-mcmurtry' || hash === '#tony-lassandro' ) {
         $(hash).modal('show');
     }
 });
