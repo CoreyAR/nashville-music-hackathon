@@ -1,0 +1,37 @@
+<!-- Portfolio Modals -->
+{% for post in site.categories.2018_workshop %}
+<div class="portfolio-modal modal fade" id="{{ post.name }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                    <img src="/static/img/workshop/{{post.img }}" class="img-responsive img-centered speaker-modal-image" alt="{{ post.alt }}">
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                    <h2>{{ post.title }}</h2>
+                                    <p class="text-muted">{{ post.subtitle }}</p>
+
+                            </div>
+                        </div>
+                        <hr class="star-primary">
+
+                        <h3>{{ post.topic }}</h3>
+                        <p>{{ post.description }}</p>
+                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
