@@ -32,5 +32,12 @@ $(window).on('load', function () {
     // Hard coded for expediency to stop #speakers and other anchors from adding overlay
     if (hash === '#Trevor-Hinesley' || hash === '#christopher-igoe' || hash === '#stephen-brady' || hash === '#tony-lassandro' ) {
         $(hash).modal('show');
+        var $anchor = $('#speakers');
+        if (hash === '#tony-lassandro') {
+            $anchor = $('#workshops');
+        }
+        $('html, body').stop().animate({
+            scrollTop: $($anchor).offset().top
+        }, 1500, 'easeInOutExpo');
     }
 });
