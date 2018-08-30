@@ -1,13 +1,13 @@
 ---
-title: Chris McMurtry
-name: chris-mcmurtry
-subtitle: Head of Music Product | Exactuals
+title: Stephen Brady
+name: stephen-brady
+subtitle: Lead Software Engineer | Exactuals
 layout: default
 modal-id: 1
-img: chris-mcmurtry.png
-thumbnail: chris-mcmurtry.png
-alt: Chris McMurtry
+img: stephen-brady.jpg
+thumbnail: stephen-brady.jpg
+alt: Stephen Brady
 topic: Matching Dynamic Disparate Sets of Data Using Entity Resolution and Machine Learning
 description: >
-    Historically, information about master recording and music publishing rights have been entered and collected by hand resulting in inaccurate and mismatched information that can delay payment and make using music more difficult. Chris McMurtry will present about how Exactuals has used, Kimichi, the largest similarity metric library in Python, to match recording and publishing information for songs and increase the accuracy of the rights information. So far they’ve matched 32% of the 69 million tracks in their library and expect to have 50% matched by the end of the year! Exactauls will also open up Rai, their api for accessing publishing and master recording information for the hackathon. Any projects that use their api and present at the end of the day will receive 6 months access to Rai.
+    Historically, information about master recording and music publishing rights have been entered and collected by hand resulting in inaccurate and mismatched information that can delay payment and make using music more difficult. Stephen Brady will present about how Exactuals has used, Kimichi, the largest similarity metric library in Python, to match recording and publishing information for songs and increase the accuracy of the rights information. So far they’ve matched 32% of the 69 million tracks in their library and expect to have 50% matched by the end of the year! Exactauls will also open up Rai, their api for accessing publishing and master recording information for the hackathon. Any projects that use their api and present at the end of the day will receive 6 months access to Rai.
 ---
