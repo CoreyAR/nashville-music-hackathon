@@ -4,8 +4,8 @@ name: tony-lassandro
 subtitle: Audio Software Developer | Harrison Consoles
 layout: default
 modal-id: 1
-img: TBD.jpg
-thumbnail: TBD.jpg
+img: tony-lassandro.jpg
+thumbnail: tony-lassandro.jpg
 alt: Tony Lassandro
 topic: Getting Started With JUCE Development
 description: >
